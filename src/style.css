@@ -47,6 +47,11 @@ li a {
   text-decoration: none;
 }
 
+li a:hover {
+  color: #D3EEE1;
+  text-decoration: none;
+}
+
 .presentation-text {
   background-color: #D3EEE1;
   border-radius: 100px;
