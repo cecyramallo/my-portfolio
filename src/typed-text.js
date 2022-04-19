@@ -4,7 +4,7 @@ const cursorSpan = document.querySelector(".cursor");
 const textArray = ["Front-end developer", "Historian", "Classical guitarist", "Musicologist", "Language teacher"];
 const typingDelay = 200;
 const erasingDelay = 100;
-const newTextDelay = 2000;
+const newTextDelay = 200;
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -17,7 +17,7 @@ function type() {
     }
 else {
     cursorSpan.classList.remove("typing");
-    setTimeout(erase, newTextDelay); 
+    setTimeout(erase, newTextDelay);
 }
 }
 

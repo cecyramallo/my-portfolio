@@ -1,5 +1,5 @@
 body {
-    background-color: #88A0AA;
+    background-color: #1f88b5;
 }
 
 .typed-text {
@@ -14,4 +14,35 @@ body {
     opacity: 70%;
     margin-left: 2px;
     animation: blink 1s infinite;
+}
+
+nav {
+    background-color: #5E8C61;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    width: 150px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+li a {
+    color: #E7FBF7;
+    text-decoration: none;
+}
+
+h3 {
+    color: red;
 }

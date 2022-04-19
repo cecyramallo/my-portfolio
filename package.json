@@ -1,7 +1,7 @@
 {
-  "name": "social-network",
+  "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "Social Network @ Laboratoria",
+  "description": "Cecilia Ramallo's portfolio",
   "main": "src/index.html",
   "keywords": [
     "javascript",
