@@ -159,3 +159,42 @@ p strong a:hover {
 .class-button:focus {
   outline: none;
 }
+
+#mobile-container {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  #desktop-container {
+    display: none;
+  }
+
+  #mobile-container {
+    display: block;
+  }
+
+  /* Mobile CSS */
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    text-align: center;
+    width: 100%;
+  }
+
+  * {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .font-size-30 {
+    font-size: 30px;
+  }
+}
