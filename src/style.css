@@ -1,5 +1,5 @@
-body {
-  background-color: #1f88b5;
+* {
+  font-family: 'Nunito', sans-serif;
 }
 
 .text-petrol-blue {
@@ -8,6 +8,30 @@ body {
 
 .typed-text {
   color: #4E6151;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-22 {
+  font-size: 22px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.center {
+  text-align: center;
 }
 
 .cursor {
@@ -62,4 +86,22 @@ li a:hover {
   background-color: #D3EEE1;
   border-radius: 100px;
   text-align: center;
+}
+
+.contact-button {
+  background: #E7FBF7;
+  border: none;
+  border-radius: 30px;
+  color: #5E8C61;
+  font-family: 'Nunito', sans-serif;
+  height: 53px;
+  width: 207px;
+}
+
+.contact-button:hover {
+  background-color: #D3EEE1;
+}
+
+.contact-button:focus {
+  outline: none;
 }
