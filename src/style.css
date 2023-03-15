@@ -42,6 +42,18 @@
   font-size: 40px;
 }
 
+.font-size-50 {
+  font-size: 50px;
+}
+
+.font-size-60 {
+  font-size: 60px;
+}
+
+.font-size-70 {
+  font-size: 70px;
+}
+
 .font-weight-400 {
   font-weight: 400;
 }
@@ -96,13 +108,7 @@ li a:hover {
   text-decoration: none;
 }
 
-.presentation-text {
-  background-color: #D3EEE1;
-  border-radius: 100px;
-  text-align: center;
-}
-
-.about-me-text {
+.text {
   background-color: #D3EEE1;
   border-radius: 100px;
   text-align: center;
@@ -123,5 +129,23 @@ li a:hover {
 }
 
 .contact-button:focus {
+  outline: none;
+}
+
+.class-button {
+  background: #5E8C61;
+  border: none;
+  border-radius: 30px;
+  color: #E7FBF7;
+  font-family: 'Nunito', sans-serif;
+  height: 53px;
+  width: 207px;
+}
+
+.class-button:hover {
+  background-color: #4E6151;
+}
+
+.class-button:focus {
   outline: none;
 }
